@@ -1,6 +1,6 @@
 import os
 
-data_file = "./data/data.txt"
+data_file = "data.txt"
 
 if os.path.exists(data_file):
     with open(data_file, 'r') as f:
